@@ -1,0 +1,76 @@
+/* start gloabal rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+/* end gloabal rules */
+/* start container */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px;
+    width: 40vh;
+}
+@media(max-width:375px){
+    .container{
+        width: 33vh;
+        padding: 20px;
+    }
+}
+.container img {
+    border-radius: 50%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.container h2 {
+    color: white;
+}
+.container h5 {
+    color: hsl(75, 94%, 57%);
+    margin: 10px 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.container p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.container .buttons a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px ;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.container .buttons a:hover{
+    background-color: hsl(75, 94%, 57%) ;
+    color: hsl(0, 0%, 12%);
+}
+/* end container */
+/* start attribution */
+.attribution{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+/* end attribution */
