@@ -19,11 +19,12 @@ body {
     text-align: center;
     border-radius: 10px;
     padding: 40px;
-    width: 40vh;
+    width: 400px;
+    height: fit-content;
 }
 @media(max-width:375px){
     .container{
-        width: 33vh;
+        width: 80%;
         padding: 20px;
     }
 }
@@ -53,11 +54,14 @@ body {
     color: white;
     padding: 15px ;
     background-color: hsl(0, 0%, 20%);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
     font-size: 14px;
     font-weight: bold;
     transition: 0.3s;
+}
+.container .buttons a:last-child{
+    margin: 0;
 }
 .container .buttons a:hover{
     background-color: hsl(75, 94%, 57%) ;
